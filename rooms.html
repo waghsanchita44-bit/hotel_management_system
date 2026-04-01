@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Our Rooms</title>
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+.rooms-container{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+margin-top:30px;
+}
+
+.room-card{
+background:white;
+width:250px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.2);
+padding:15px;
+text-align:center;
+transition:0.3s;
+}
+
+.room-card:hover{
+transform:scale(1.05);
+}
+
+.room-card img{
+width:100%;
+border-radius:10px;
+}
+
+.price{
+color:green;
+font-weight:bold;
+font-size:18px;
+}
+
+button{
+background:#007BFF;
+color:white;
+border:none;
+padding:10px 15px;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+background:#0056b3;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Our Rooms</h1>
+<p>Choose your comfortable stay</p>
+</header>
+
+<section class="rooms-container">
+
+<div class="room-card">
+<img src="https://images.unsplash.com/photo-1505691938895-1758d7feb511" alt="Single Room">
+<h3>Single Room</h3>
+<p class="price">₹2000 per night</p>
+<p>Perfect for single guests with comfortable facilities.</p>
+<button>Book Now</button>
+</div>
+
+<div class="room-card">
+<img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2" alt="Double Room">
+<h3>Double Room</h3>
+<p class="price">₹3500 per night</p>
+<p>Ideal for couples with spacious and cozy environment.</p>
+<button>Book Now</button
